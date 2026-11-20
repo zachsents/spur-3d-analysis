@@ -23,7 +23,7 @@ The machine must have:
 - `uv` (`brew install uv`). Mesh builds its pinned environment (trimesh with Embree, numpy, scipy, shapely, matplotlib, manifold3d, cascadio...) with it on first start, and photo work adds pyobjc's Vision and Quartz to it.
 - Blender (`brew install --cask blender`), for `render` and for reading .blend, FBX and USD files in `convert` and `scene`.
 - `ssh`, `ssh-keygen` and `tar`, for the Hetzner boxes (macOS has them).
-- spur-browser, for `photos` on pages that turn curl away. It uses the user's own browser and never solves a human check.
+- spur-browser (`github:zachsents/spur-browser#83a3948` or later), for `photos` on pages that turn curl away. It uses the user's own browser and never solves a human check.
 
 Connections:
 

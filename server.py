@@ -36,7 +36,7 @@ INSTRUCTIONS = (
 app = sbmcp.Server("analysis", version="1", instructions=INSTRUCTIONS, connections=[
     {"provider": "hetzner", "kind": "key", "label": "Hetzner Cloud", "scopes": [], "multiple": False},
     {"provider": "ai-gateway", "kind": "key", "label": "AI Gateway", "scopes": [], "multiple": False},
-], reaches={"calls": ["browser_browser_*"]})
+], reaches={"calls": ["browser_act", "browser_run"]})
 app.event("heartbeat", "How a part of it is itself", stream="vitals/analysis", kind="observation", retention="signal")
 
 
