@@ -17,7 +17,6 @@
       {"provider": "hetzner", "kind": "key", "label": "Hetzner Cloud", "scopes": [], "multiple": false},
       {"provider": "ai-gateway", "kind": "key", "label": "AI Gateway", "scopes": [], "multiple": false}
     ],
-    "widgets": ["studies"],
-    "space": {"id": "home", "name": "Home"}
+    "widgets": ["studies"]
   }
 }

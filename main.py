@@ -48,7 +48,7 @@ app.widget("studies", "Studies", lambda: sbmcp.surface("studies", [
     {"id": "study", "component": "Row", "label": {"@path": "label"}, "mark": {"@path": "mark"},
      "detail": {"@path": "detail"}, "alert": {"@path": "alert"}, "values": {"@path": "values"},
      "progress": {"@path": "progress"}, "endsAt": {"@path": "endsAt"}},
-]), tool="studies", refresh=["analysis.fea_study", "analysis.cfd_study"], space="home", space_name="Home")
+]), tool="studies", refresh=["analysis.fea_study", "analysis.cfd_study"])
 
 
 @app.tool(name="health", read_only=True)
